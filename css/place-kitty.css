@@ -18,7 +18,11 @@
 
 /* Select the image inside the element with an id of basket (using its descendent relationship) */
 
+<<<<<<< HEAD
 #basket img{
+=======
+#basket {
+>>>>>>> 654b14531ad44e5010ba8f7169bcdb2b2f50cbcf
   position: absolute;
   z-index: 5;
   top: 291px;
@@ -27,7 +31,11 @@
 
 /* Select the image based on it being a sibling that follows immediately after the element with an id of ball (using adjacent sibling selector) */
 
+<<<<<<< HEAD
 #ball + img{
+=======
+#ball {
+>>>>>>> 654b14531ad44e5010ba8f7169bcdb2b2f50cbcf
   position: absolute;
   z-index: 4;
   top: 260px;
@@ -36,7 +44,11 @@
 
 /* Select the image that has an attribute value matching "Kitty 5" (using attribute selector) */
 
+<<<<<<< HEAD
 img[alt="Kitty 5"] {
+=======
+#kitty-5 {
+>>>>>>> 654b14531ad44e5010ba8f7169bcdb2b2f50cbcf
   position: absolute;
   z-index: 3;
   top: 217px;
